@@ -1,4 +1,4 @@
-package com.coopeuchTest;
+package com.agilesoftTest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -8,16 +8,16 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@ComponentScan(basePackages = {"com.coopeuchTest"})
+@ComponentScan(basePackages = {"com.agilesoftTest"})
 @SpringBootApplication
-@EnableJpaRepositories("com.coopeuchTest.dao")
-@EntityScan("com.coopeuchTest.model")
+@EnableJpaRepositories("com.agilesoftTest.dao")
+@EntityScan("com.agilesoftTest.model")
 @Configuration
 @EnableAutoConfiguration
-public class CoopeuchTestApplication {
+public class AgilesoftTestApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CoopeuchTestApplication.class, args);
+		SpringApplication.run(AgilesoftTestApplication.class, args);
 	}
 
 }

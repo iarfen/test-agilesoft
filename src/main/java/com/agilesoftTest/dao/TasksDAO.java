@@ -1,8 +1,8 @@
-package com.coopeuchTest.dao;
+package com.agilesoftTest.dao;
 
 import org.springframework.stereotype.Repository;
 
-import com.coopeuchTest.model.Task;
+import com.agilesoftTest.model.Task;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.data.repository.CrudRepository;
 

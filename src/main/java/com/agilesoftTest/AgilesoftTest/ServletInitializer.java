@@ -1,6 +1,6 @@
-package com.coopeuchTest.CoopeuchTest;
+package com.agilesoftTest.AgilesoftTest;
 
-import com.coopeuchTest.CoopeuchTestApplication;
+import com.agilesoftTest.AgilesoftTestApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
@@ -8,7 +8,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(CoopeuchTestApplication.class);
+		return application.sources(AgilesoftTestApplication.class);
 	}
 
 }
